@@ -3,7 +3,6 @@
     src: url(fontes/FingerPaint-Regular.ttf);} /*Fonte do header*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /*Fonte do Nav*/
-
 /*          Geral           */
 *{
     box-sizing: border-box;
@@ -11,11 +10,15 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: rgb(241, 255, 248);
+}
 /*--------------------------*/
 
 /*          Header          */
 
 header{
+    background-color: rgba(189, 255, 224, 0.733);
     position: relative;
     min-height: 160px;
     width: 100%;
@@ -113,7 +116,7 @@ main{
 footer{
     width: 100%;
     height: auto;
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
 }
 footer h1{
     font-size: 3em;
@@ -141,4 +144,3 @@ footer h1{
     }
 }
 /*--------------------------*/
-
