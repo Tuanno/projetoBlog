@@ -8,14 +8,14 @@
     padding: .5%;
 }
 
-.card {
+.card2 {
     background-color: rgb(203, 148, 255);
     padding: 15px;
 }
-.card h1{
+.card2 h1{
     text-align: center;
     padding: 10px;
 }
-.card p{
+.card2 p{
     text-align: justify;
 }
