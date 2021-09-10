@@ -60,11 +60,11 @@ label{
     font-weight: bold;
 }
 
-.btn:hover{
+/* .btn:hover{
     background-color: rgba(14, 148, 2, 0.671);
     color: white;
     font-size: 1.7em;
     font-family: sans-serif;
     font-weight: bold;
     transition: .5s;
-}
+} */
