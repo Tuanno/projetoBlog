@@ -1,21 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+#geral{
+    position: relative;
+    background-color: rgba(127, 207, 207, 0);
+    width: 80%;
+    margin: 20px auto;
+}
 .main-contents{
-    width: 65%;
-    margin: 1% auto;
-    background-color: aqua;
+    background-color: rgba(255, 255, 255, 0);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    padding: .5%;
+    width: auto;
+    height: auto;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding: 5px;
 }
 
-.card2 {
-    background-color: rgb(203, 148, 255);
-    padding: 15px;
-}
-.card2 h1{
-    text-align: center;
-    padding: 10px;
-}
-.card2 p{
+.artigo{
+    
+    width: 350px;
+    /* height: 400px; */
+    margin: 20px auto;
     text-align: justify;
+    padding: 3%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 2.5px rgb(156, 156, 156);
+}
+.artigo h5{
+    text-align: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+.card-body p{
+    padding-bottom: 20px !important;
+}
+
+.artigo img{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 1150px) {
+    #geral{
+        position: relative;
+        background-color: rgba(127, 207, 207, 0);
+        width: 73%;
+        margin: 20px auto;
+    }
+    .main-contents{
+        background-color: rgba(255, 255, 255, 0);
+        display: grid;
+        width: auto;
+        height: auto;
+        grid-template-columns: 2fr 2fr;
+        padding: 5px;
+    }
+    
 }
