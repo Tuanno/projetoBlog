@@ -7,6 +7,9 @@
     <link rel="shortcut icon" href="imagens/icos/favicon.ico" type="image/x-icon">
    <link rel="stylesheet" href="style/style.css">
    <link rel="stylesheet" href="style/style-grid.css">
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
    
     <style>	
     </style>
@@ -37,11 +40,29 @@
         </nav>
     </header>
 
-    <!-- <section class="carrossel">
-        <img src="imagens/imagem-teste.png" alt="carrossel">
-    </section> -->
-    
     <div id="geral">
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/bootstrap.png" class="d-block w-20" alt="20px">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/css3.png" class="d-block w-20" alt="20px">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/html5.png" class="d-block w-20" alt="20px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
       <h3>Aprenda Front-End</h3>
 
