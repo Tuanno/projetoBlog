@@ -1,0 +1,36 @@
+.slide img{
+    display: block;
+    margin: 0 auto;
+}
+.slide-item{
+    position: relative;
+    
+}
+
+.slide-item > *{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+.slide-item > .active{
+    position: relative;
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.slide-thumb{
+    display: flex;
+}
+/* .slide-thumb > span{
+    flex: 1;
+    display: block;
+    background-color: brown;
+    height: 4px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.slide-thumb > span.active{
+    background-color: blueviolet;
+} */
