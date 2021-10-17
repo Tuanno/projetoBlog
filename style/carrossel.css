@@ -23,6 +23,9 @@
 .slide-thumb{
     display: flex;
 }
+
+
+
 /* .slide-thumb > span{
     flex: 1;
     display: block;
