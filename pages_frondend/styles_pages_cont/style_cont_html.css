@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.card-conteudo{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff93;
+    width: 80%;
+    padding: 25px;
+    text-align: justify;
+    margin: 20px auto 40px auto;
+    box-shadow: 0 0 10px 2px rgba(185, 185, 185, 0.616);
+    border-radius: 10px;
+}
+/* code{
+    color: rgb(0, 128, 11);
+    border-radius: 5px;
+    padding: 2px 8px;
+    margin: 5px 10px;
+    background-color: rgba(95, 158, 160, 0.342);
+} */
+h3{
+    font-family: 'Roboto';
+    font-size: 1.6em;
+    padding: 10px;
+}
+h4{
+    font-family: 'Roboto';
+    font-size: 1.4em;
+    padding: 10px; 
+}
+p{
+    font-family: 'Open Sans';
+    text-indent: 20px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.code .sec-code{
+    padding: 5px 20px;
+    border-radius: 6px;
+    background-color: rgb(20, 45, 53);
+    color: white;
+}
+.sec-code{
+    padding: 15px;
+    border-radius: 6px;
+    background-color: rgb(20, 45, 53);
+    color: white;
+}
+.tags{
+    color: rgb(106, 106, 245);
+    font-family: 'Share Tech Mono';
+}
+.atrib{
+    color: white;
+    font-family: 'Share Tech Mono';
+}
+.param{
+    color: rgb(38, 156, 107);
+    font-family: 'Share Tech Mono';
+}
+.tags::before{
+    content: '<';
+    color: white;
+}
+.tags::after{
+    content: '>';
+    color: white;
+}
