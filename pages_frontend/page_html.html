@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="styles_pages_cont/style_cont_html.css">
+    <title>HTML</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <div id="login">
+            <a href="login.html">Login</a>
+            <a href="register.html">Cadastre-se</a>
+        </div>
+        <div>
+            <h1>&lt;/Geek-Dev></h1>
+        </div>
+
+            <div id="icos">
+                <a href="#"><img id="ico_face" src="../imagens/icos/ico_facebook.png" alt="Ico facebook"></a>
+                <a href="#"><img id="ico_whats" src="../imagens/icos/ico_whatsapp.png" alt="Ico whatsapp"></a>
+                <a href="#"><img id="ico_in" src="../imagens/icos/ico_linkedin.png" alt="Ico Linkedin"></a>
+                <a href="#"><img id="ico_insta" src="../imagens/icos/ico_instagram.png" alt="Ico Instagram"></a>
+            </div>
+        <nav>
+            <div id="navBar">
+            <a href="../index.html">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            </div>
+        </nav>
+    </header> 
+    <main class="card-conteudo">
+    <h2>Básico do HTML5</h2>
+    <h3>Introdução</h3>
+        <p>
+            HTML5, sigla para Hypertext Markup Language, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web. Diferente das suas versões anteriores a versão 5 do HTML possui semantica para fornecer mais informações aos buscadores como o <em>Google, bing, Yahoo! e muitos outros</em>. 
+        </p>
+        <p>
+            Um exemplo sobre a semantica, quando marcamos um texto em negrito em um texto queremos dizer que essa palavra ou frase é importante, assim casa no seu site tenha: Como fazer <strong><em>Bolo de cenoura</em></strong>, os buscadores iram saber que ali no seu site tem uma receita sobre colo de cenoura, a grosso modo é isso que indica aos buscadores.
+        </p>
+
+    <h4>O que iremos incluir no documento:</h4>
+
+    <p>
+        Todo arquivo HTML deve começar com o <b>DOCTYPE</b> para o navegador reconheça o arquivo como HTML, logo em seguida vamos abrir a tag html (dependendo do editor que usar ira fezar para você de forma automatica), apos a tag html vamos abrir a tag head e depois do fechamento dela abriremos a tag body, essas duas (head e body) ficam dentro da html.
+    </p>
+
+    <h4>Vamos começar com o doctype:</h4>
+        <div class="code">
+            <section class="sec-code">
+                <span class="tags"><span class="atrib">!</span>doctype <span class="atrib">html</span></span>
+            </section>
+        </div>
+        <p>
+            Apesar da sintaxe parecida com uma tag como as demais, o Doctype não é uma tag do HTML. O Doctype HTML é uma declaração para informar ao navegador qual é a versão do HTML utilizada no arquivo. Essa declaração vem antes das tags HTML, portanto, geralmente é apresentada na primeira linha de um código para evitar erros em sua pagina.
+        </p>
+        <p>
+            Bem simples, não? Este doctype até dá para ser decorado, ao contrário dos que utilizávamos antes. Perceba que não há uma versão do HTML especificada no doctype, o que o torna um doctype geral para qualquer versão do HTML. A sua única função é "ligar" o modo de padrões web (standards mode) dos navegadores.
+        </p>
+
+<h4>Segundo, abrimos a tag html:</h4>
+    <div class="code">
+        <section class="sec-code">
+            <span class="tags">html <span class="atrib">lang=</span><span class="param">"pt-BR"</span></span>
+        </section>
+    </div>
+    <p>
+        A tag html vai fazer com que seu navegador consiga diferenciar o html do css ou do js, pois em torno de 20 anos atras não existia o css e o js era apenas html puro dentro do arquivo, assim não tinha nessecidade de haver uma declaração de que ali começava o html.
+        Assim que abrimos essa tag acrecentamos um atribuo a ela, o lang, onde vai dizar ao navegador qual o idioma da pagina, visto no exemplo a cima. 
+    </p>
+
+<h3>Em seguida, a tag head</h3>
+    
+    <div class="code">
+        <section class="sec-code">
+            <span class="tags">head</span><span class="tagsf">head</span>
+        </section>
+    </div>
+    <p>
+        Essa tag é de suma importancia, aqui declaramos as configurações da pagina. <br>
+        <div class="parag-interno">Dentro da tag <b>head</b> podemos e devemos usar a tag meta, a tag meta especificando a codificação, nesse caso para que o site tenha caracteres na norma ABNT2, preencha o atributo da tag meta com <b>charset="UTF-8"</b>, como visto abaixo:</div>
+    </p>
+
+    <div class="code">
+        <section class="sec-code">
+            <span class="tags">meta <span class="atrib">charset=</span><span class="param">"UTF-8"</span></span>
+        </section>
+    </div>
+    <p>Logo em seguida o site vai precisar de um titulo, nesse caso usamos a tag <b>title</b>, ainda dentro da tag head:</p>
+
+    <div class="code">
+        <section class="sec-code">
+            <span class="tags">title</span> Uma Página HTML5 Básica <span class="tagsf">title</span>
+        </section>
+    </div>
+
+<h3>Por fim, a tag body, com o conteúdo da página:</h3>
+    <div class="code">
+        <section class="sec-code">
+            <span class="tags">body</span>
+            conteúdo
+        <span class="tagsf">body</span>
+        </section>
+    </div>
+    <p>
+        Aqui no <b>body</b> não tem muito o que se falar, de fomar simplificada, aqui vai todo o conteudo que ira aparecer na sua pagina.
+        <div class="parag-interno">
+            Aqui podemos usar tag do tipo <b>p</b> para criar paragrafos ou <b>h1</b> para criar titulos e etc.
+        </div>
+    </p>
+
+<h4>Abaixo, o código completo:</h4>
+
+        <section class="sec-code"> <!--Aqui vai o fundo-->
+            <span class="tags"><span class="atrib">!</span>DOCTYPE <span class="atrib">html</span></span> <br>
+            <span class="tags">html <sapn class="atrib">lang=</sapn><sapn class="param">"pt-BR"</sapn></span> <br>
+              <span class="tags identNv1">head</span> <br>
+                <span class="tags identNv2">meta <sapn class="atrib">charset=</sapn><sapn class="param">"UTF-8"</sapn></span> <br>
+                <span class="tags identNv2">title</span>Uma Página HTML5 Básica<span class="tags"><span class="atrib">/</span>title</span> <br>
+              <span class="tagsf identNv1">head</span> <br>
+              <span class="tags identNv1">body</span> <br>
+                <p class="identNv1">Aqui fica o conteúdo da página. Exemplo:</p>
+                <p class="identNv1"><span class="tags">h1</span> Frase motivacional <span class="tagsf">h1</span></p>
+                <p class="identNv1"><span class="tags">p</span>"O Extraordinário está no que fazemos, não em quem somos"<span class="tagsf">p</span></p>
+              <span class="tagsf identNv1">body</span> <br>
+            <span class="tagsf">html</span>
+        </section>
+    
+    </main>
+    <footer>
+        <div>
+            <h1>&lt;/Geek-Dev></h1>
+        </div>
+    </footer>
+</body>
+</html>

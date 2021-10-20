@@ -13,13 +13,13 @@
     box-shadow: 0 0 10px 2px rgba(185, 185, 185, 0.616);
     border-radius: 10px;
 }
-/* code{
-    color: rgb(0, 128, 11);
-    border-radius: 5px;
-    padding: 2px 8px;
-    margin: 5px 10px;
-    background-color: rgba(95, 158, 160, 0.342);
-} */
+h2{
+    font-family: 'Roboto';
+    font-size: 1.8em;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
 h3{
     font-family: 'Roboto';
     font-size: 1.6em;
@@ -33,23 +33,35 @@ h4{
 p{
     font-family: 'Open Sans';
     text-indent: 20px;
-    padding: 10px;
+    padding-top: 10px;
     font-size: 1em;
 }
-
-.code .sec-code{
+.parag-interno{
+    font-family: 'Open Sans';
+    text-indent: 20px;
+    font-size: 1em;
+}
+.code{
+    margin-top: 10px;
+}
+.code .sec-code{ /*Para section menores */
+    display: inline-block;
     padding: 5px 20px;
     border-radius: 6px;
     background-color: rgb(20, 45, 53);
     color: white;
 }
-.sec-code{
+.sec-code{ /*Para section maiores */
     padding: 15px;
     border-radius: 6px;
     background-color: rgb(20, 45, 53);
     color: white;
 }
 .tags{
+    color: rgb(106, 106, 245);
+    font-family: 'Share Tech Mono';
+}
+.tagsf{
     color: rgb(106, 106, 245);
     font-family: 'Share Tech Mono';
 }
@@ -65,7 +77,21 @@ p{
     content: '<';
     color: white;
 }
+.tagsf::before{
+    content: '</';
+    color: white;
+}
 .tags::after{
     content: '>';
     color: white;
+}
+.tagsf::after{
+    content: '>';
+    color: white;
+}
+.identNv1{
+    margin-left: 20px;
+}
+.identNv2{
+    margin-left: 40px;
 }
