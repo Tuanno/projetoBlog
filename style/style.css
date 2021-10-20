@@ -1,13 +1,20 @@
 @font-face {
     font-family: FingerPaint;
     src: url(fontes/FingerPaint-Regular.ttf);} /*Fonte do header*/
-
+@font-face {
+    font-family: RampartOne;
+    src: url(fontes/RampartOne-Regular.ttf);} /*Fonte do header*/
+@font-face {
+    font-family: BalsamiqSans;
+    src: url(fontes/BalsamiqSans-Regular.ttf);} /*Fonte do header*/
+@font-face {
+    font-family: NovaSquare;
+    src: url(fontes/NovaSquare-Regular.ttf);} /*Fonte do header*/
 /*          Geral           */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: cursive;
 }
 body{
     background-color: rgb(214, 245, 255);
@@ -41,8 +48,9 @@ header h1{
     color: #000000;
     padding-top: 50px;
     font-size: 3.5em;
-    font-family: cursive;
+    font-family: 'BalsamiqSans';
     font-weight: bolder;
+    margin: 0;
 }
 /*          Login           */
 #login{
